@@ -50,26 +50,26 @@ pip install -r requirements.txt
 5. **Configurar Tesseract OCR**
 - En Windows:
   
-  1.Descargar el instalador desde: Tesseract UB Mannheim.
+  I. Descargar el instalador desde: Tesseract UB Mannheim.
   
-  2.Ejecutar el instalador y seguir los pasos para la respectiva instalación.
+  II. Ejecutar el instalador y seguir los pasos para la respectiva instalación.
   
-  3.Por defecto se instalará en:
+  III. Por defecto se instalará en:
   ```python
   C:\Program Files\Tesseract-OCR\
   ```
-  4.En app.py, ajustar la ruta si es necesario:
+   IV. En app.py, ajustar la ruta si es necesario:
   ```python
   pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
   ```
 - En Linux / MacOS:
-```bash
-sudo apt install tesseract-ocr
-```
-Verificar la instalación:
-```bash
-tesseract --version
-```
+  ```bash
+  sudo apt install tesseract-ocr
+  ```
+  Verificar la instalación:
+  ```bash
+  tesseract --version
+  ```
 6. **Ejecutar la aplicación**
 ```bash
 streamlit run app.py

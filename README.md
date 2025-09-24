@@ -113,7 +113,7 @@ Beca_Pueblos_Nacionalidades/
 4. Exporta los resultados a Excel.
 
 ## 🔄 Limitaciones
-- No valida legalmente firmas ni sellos.
+- No válida legalmente firmas ni sellos.
 - Tiene una dependencia de la calidad del escaneo.
 - Es sensible a variaciones de formato en los documentos.
 
